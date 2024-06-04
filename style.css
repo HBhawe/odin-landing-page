@@ -71,6 +71,7 @@ button {
   background-color: #3882f6;
   border-radius: 5px;
   height: 30px;
+  cursor: pointer;
 }
 
 button.header-signup {
@@ -128,9 +129,52 @@ button.sign-up-alternate {
 .quote {
   background-color: #e7e5eb;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .quote-item {
   display: flex;
   flex-direction: column;
+}
+
+p.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  margin: 0;
+}
+
+p.author {
+  text-align: right;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+div.sign-up {
+  display: flex;
+  width: 100%;
+}
+
+div.blue {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+}
+
+div.action-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+p.subtext {
+  color: #e5e7eb;
+  margin: 0px;
 }
