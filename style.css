@@ -66,12 +66,22 @@ ul {
   justify-content: center;
 }
 
-.header-signup {
+button {
   width: 100px;
   background-color: #3882f6;
   border-radius: 5px;
+  height: 30px;
+}
+
+button.header-signup {
   color: #e5e7eb;
   margin-top: 0px;
+  border: 0;
+}
+
+button.sign-up-alternate {
+  border: 2px solid white;
+  color: white;
 }
 
 .header-image {
@@ -113,4 +123,14 @@ ul {
   height: 200px;
   border-radius: 5px;
   background-color: white;
+}
+
+.quote {
+  background-color: #e7e5eb;
+  display: flex;
+}
+
+.quote-item {
+  display: flex;
+  flex-direction: column;
 }
